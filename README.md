@@ -184,3 +184,13 @@ public class CurrencyPrice {
 }
 
 ```
+
+
+Simulación de ejecución de proyectos:
+
+Singleton: Se utilizo para tener un unico componente que pueda gestionar el acceso concurrente a la BD
+
+Factory Method: Se implemento un grupo de clases que representara a las divisas MXN y USD, cada una con su logica para consulktar ordenes pendiente de compra y poder ejecutar estas en componentes externos, mediante promesas
+
+Observer: Se utilizó el patrón Observer para la notificación de cambio de estado, para este caso el precio de las divisas y se pudan ejecutar multiples ordenes de compra.
+
